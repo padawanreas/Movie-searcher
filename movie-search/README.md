@@ -9,7 +9,7 @@ https://movie-caen.herokuapp.com/
 ## Auteurs
 
 *   Team Caen
-*   Maxime Beaufils, Bertrand Pelletier, Iliès El Ouartassi
+*   Rebecca Bossé, Charlotte Vaudour, Ruana Roupsard
 
 ## En savoir plus
 
