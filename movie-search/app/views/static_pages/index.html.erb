@@ -1,0 +1,11 @@
+<p> </p><br>
+<h1>Movie searcher</h1>
+<p> </p><br>
+<%= form_tag ('/'), class:"form" do %>
+
+      <%= label_tag 'movie:' %>
+      <%= text_field_tag 'movie' %>
+      <br /> <br />
+      <%= submit_tag "Search movie", class:"btn btn-primary" %>
+
+<% end %>

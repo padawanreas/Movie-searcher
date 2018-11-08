@@ -1,0 +1,31 @@
+<div class="table-container">
+<table class="table table-dark table-hover">
+ <tbody>
+   <% if @titles.empty? %>
+      <p> </p><br>
+      <p> </p><br>
+      <p> </p><br>
+      <p> </p><br>
+      <p> </p><br>
+      <p> </p><br>
+      <p> </p><br>
+      <p> </p><br>
+     <h1>Aucun résultat pour cette recherche</h1>
+   <% else %>
+   <% i = 0 %>
+    <% while i<20 && i<@titles.length %>
+       <% @titles.each do |m|%>
+         <tr>
+           <td><img src="<%=@image[i]%>" alt="alt"></td>
+           <td> <%= m %> </td>
+           <td>Réalisé par <%= @director[i]%></td>
+           <td>Sorti le <%= @date[i]%></td>
+       <% i += 1 %>
+         </tr>
+      <% end %>
+    <% end %>
+   <% end %>
+ </tbody>
+</table>
+</div>
+
